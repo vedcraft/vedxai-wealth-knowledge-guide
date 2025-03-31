@@ -1,0 +1,29 @@
+site_name: 'VedXAI Wealth Management Knowledge Base'
+site_description: 'A repository to consolidate knowledge articles, patterns, white papers, relevant articles supporting Wealth Management'
+site_author: 'VedXAI'
+docs_dir: 'docs'
+site_dir: 'html'
+theme:
+  name: 'material'
+  palette:
+    primary: indigo
+  features:
+    - navigation.instant
+    - search.highlight
+
+nav:
+  - Home: 'index.md'
+  - RIAPlatforms: 'RIAPlatforms/README.md'
+plugins:
+  - search
+  - mermaid2
+  - markdown-filter:
+      levels: [1, 2]
+  - macros
+  - awesome-pages
+  - glightbox
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
