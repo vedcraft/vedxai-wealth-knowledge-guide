@@ -1,4 +1,6 @@
 # Logs
+_build/*
+html/*
 logs
 *.log
 npm-debug.log*
