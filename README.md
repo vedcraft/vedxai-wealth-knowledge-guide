@@ -1,2 +1,3 @@
-# vedxai-wealth-knowledge-guide
-An initiative by VedXAI for Knowledge Management related to Wealth Management Industry
+# VedXAI Wealth Management Knowledge Guide
+
+An initiative by VedXAI for Knowledge Management related to the Wealth Management Industry
